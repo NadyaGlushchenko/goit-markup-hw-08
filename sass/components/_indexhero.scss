@@ -1,0 +1,160 @@
+// стили героя индекс
+
+// СМАРТФОН
+
+.hero {
+  position: relative;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/Header.jpg);
+  max-width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  &-title {
+    color: $text-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
+}
+.link-hero {
+  background: $background-color;
+  color: $text-color;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  display: inline-block;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin-top: 46px;
+  border: 0px;
+  &:hover,
+  &:focus {
+    background-color: $text-color;
+    color: $background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+  }
+}
+
+// // ПЛАНШЕТ
+
+// .hero {
+//   position: relative;
+//   text-align: center;
+//   background-image: linear-gradient(
+//       to right,
+//       rgba(47, 48, 58, 0.8),
+//       rgba(47, 48, 58, 0.8)
+//     ),
+//     url(../images/Header.jpg);
+//   max-width: 1600px;
+//   height: 600px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   &-title {
+//     color: $text-color;
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 1.36;
+//     text-align: center;
+//     text-transform: uppercase;
+//     padding-top: 200px;
+//     padding-bottom: 0px;
+//     margin: 0px;
+//   }
+// }
+// .link-hero {
+//   background: $background-color;
+//   color: $text-color;
+//   text-decoration: none;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.88;
+//   letter-spacing: 0.06em;
+//   text-align: center;
+//   display: inline-block;
+//   min-width: 200px;
+//   height: 50px;
+//   border-radius: 4px;
+//   padding: 10px 32px;
+//   margin-top: 46px;
+//   border: 0px;
+//   &:hover,
+//   &:focus {
+//     background-color: $text-color;
+//     color: $background-color;
+//     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//     outline: none;
+//   }
+// }
+
+// // ДЕСКТОП
+
+// .hero {
+//   position: relative;
+//   text-align: center;
+//   background-image: linear-gradient(
+//       to right,
+//       rgba(47, 48, 58, 0.8),
+//       rgba(47, 48, 58, 0.8)
+//     ),
+//     url(../images/Header.jpg);
+//   max-width: 1600px;
+//   height: 600px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   &-title {
+//     color: $text-color;
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 1.36;
+//     text-align: center;
+//     text-transform: uppercase;
+//     padding-top: 200px;
+//     padding-bottom: 0px;
+//     margin: 0px;
+//   }
+// }
+// .link-hero {
+//   background: $background-color;
+//   color: $text-color;
+//   text-decoration: none;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.88;
+//   letter-spacing: 0.06em;
+//   text-align: center;
+//   display: inline-block;
+//   min-width: 200px;
+//   height: 50px;
+//   border-radius: 4px;
+//   padding: 10px 32px;
+//   margin-top: 46px;
+//   border: 0px;
+//   &:hover,
+//   &:focus {
+//     background-color: $text-color;
+//     color: $background-color;
+//     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//     outline: none;
+//   }
+// }

@@ -1,0 +1,64 @@
+// стили секции чем мы занимаемся
+
+// СМАРТФОН
+
+// .border {
+//   border-top: 1px solid #ececec;
+// }
+.item-size {
+  width: calc((100% - 30px * 2) / 3);
+}
+.three {
+  position: absolute;
+  color: $text-color;
+  background: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 27px;
+  width: 100%;
+  bottom: 0;
+}
+
+// // ПЛАНШЕТ
+
+// .item-size {
+//   width: calc((100% - 30px * 2) / 3);
+// }
+// .three {
+//   position: absolute;
+//   color: $text-color;
+//   background: rgba(47, 48, 58, 0.8);
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-align: center;
+//   text-transform: uppercase;
+//   margin-top: 0px;
+//   margin-bottom: 0px;
+//   padding: 27px;
+//   width: 100%;
+//   bottom: 0;
+// }
+
+// // ДЕСКТОП
+
+// .item-size {
+//   width: calc((100% - 30px * 2) / 3);
+// }
+// .three {
+//   position: absolute;
+//   color: $text-color;
+//   background: rgba(47, 48, 58, 0.8);
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-align: center;
+//   text-transform: uppercase;
+//   margin-top: 0px;
+//   margin-bottom: 0px;
+//   padding: 27px;
+//   width: 100%;
+//   bottom: 0;
+// }

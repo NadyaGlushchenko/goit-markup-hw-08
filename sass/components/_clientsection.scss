@@ -1,0 +1,255 @@
+// стили секции постоянные клиенты
+
+// СМАРТФОН
+
+.backgrlogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $color-icon-logo;
+  border-radius: 4px;
+  margin-bottom: 94px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border: 1px solid $background-color;
+  }
+}
+.logoone {
+  fill: $color-icon-logo;
+  width: 44px;
+  height: 49px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .backgrlogo:hover &,
+  .backgrlogo:focus & {
+    fill: $background-color;
+  }
+}
+
+.logotwo {
+  fill: $color-icon-logo;
+  width: 40px;
+  height: 52px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .backgrlogo:hover &,
+  .backgrlogo:focus & {
+    fill: $background-color;
+  }
+}
+
+.logothree {
+  fill: $color-icon-logo;
+  width: 41px;
+  height: 42.5px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .backgrlogo:hover &,
+  .backgrlogo:focus & {
+    fill: $background-color;
+  }
+}
+
+.logofoure {
+  fill: $color-icon-logo;
+  width: 79px;
+  height: 42px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .backgrlogo:hover &,
+  .backgrlogo:focus & {
+    fill: $background-color;
+  }
+}
+
+.logofive {
+  fill: $color-icon-logo;
+  width: 59px;
+  height: 47px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .backgrlogo:hover &,
+  .backgrlogo:focus & {
+    fill: $background-color;
+  }
+}
+
+.logosix {
+  fill: $color-icon-logo;
+  width: 88px;
+  height: 45px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .backgrlogo:hover &,
+  .backgrlogo:focus & {
+    fill: $background-color;
+  }
+}
+
+// .name-text {
+//   text-align: center;
+// }
+
+// // ПЛАНШЕТ
+
+// .backgrlogo {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 170px;
+//   height: 90px;
+//   border: 1px solid $color-icon-logo;
+//   border-radius: 4px;
+//   margin-bottom: 94px;
+//   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     border: 1px solid $background-color;
+//   }
+// }
+// .logoone {
+//   fill: $color-icon-logo;
+//   width: 44px;
+//   height: 49px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logotwo {
+//   fill: $color-icon-logo;
+//   width: 40px;
+//   height: 52px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logothree {
+//   fill: $color-icon-logo;
+//   width: 41px;
+//   height: 42.5px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logofoure {
+//   fill: $color-icon-logo;
+//   width: 79px;
+//   height: 42px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logofive {
+//   fill: $color-icon-logo;
+//   width: 59px;
+//   height: 47px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logosix {
+//   fill: $color-icon-logo;
+//   width: 88px;
+//   height: 45px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// // ДЕСКТОП
+
+// .backgrlogo {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 170px;
+//   height: 90px;
+//   border: 1px solid $color-icon-logo;
+//   border-radius: 4px;
+//   margin-bottom: 94px;
+//   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     border: 1px solid $background-color;
+//   }
+// }
+// .logoone {
+//   fill: $color-icon-logo;
+//   width: 44px;
+//   height: 49px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logotwo {
+//   fill: $color-icon-logo;
+//   width: 40px;
+//   height: 52px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logothree {
+//   fill: $color-icon-logo;
+//   width: 41px;
+//   height: 42.5px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logofoure {
+//   fill: $color-icon-logo;
+//   width: 79px;
+//   height: 42px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logofive {
+//   fill: $color-icon-logo;
+//   width: 59px;
+//   height: 47px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
+
+// .logosix {
+//   fill: $color-icon-logo;
+//   width: 88px;
+//   height: 45px;
+//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//   .backgrlogo:hover &,
+//   .backgrlogo:focus & {
+//     fill: $background-color;
+//   }
+// }
