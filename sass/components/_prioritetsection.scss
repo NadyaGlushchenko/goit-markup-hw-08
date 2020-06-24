@@ -3,29 +3,28 @@
 // СМАРТФОН
 
 .prioritiets {
-  & .item + .item {
-    margin-top: 30px;
-  }
   @media screen and (min-width: 738px) {
     display: flex;
     flex-wrap: wrap;
   }
 }
 
-.prioritets-list {
-  margin-bottom: 94px;
-}
-
-.icon {
-  margin-top: 94px;
+.section {
+  margin-top: 60px;
 }
 
 .size-item {
+  // width: calc((100% - 30px * 3) / 4);
+
+  // }
   @media screen and (min-width: 738px) {
-    // width: calc((100% - 30px * 2) / 2);
-    flex-basis: 50%;
+    width: calc((100% - 30px * 1) / 2);
   }
 }
+//   @media screen and (min-width: 1200px) {
+//     flex-basis: 25%;
+//   }
+// }
 
 .item {
   position: relative;

@@ -4,12 +4,13 @@
 
 .fon {
   background: $background-icon;
+  padding-bottom: 60px;
 }
 .section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-top: 94px;
+
   margin-bottom: 0px;
   margin-top: 0px;
   padding-bottom: 50px;
@@ -23,8 +24,18 @@
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   background: $text-color;
-  margin-bottom: 94px;
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
+
+.imgcomanda {
+  @media screen and (min-width: 450px) {
+    width: 100%;
+  }
+}
+
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -44,7 +55,7 @@
 }
 .list {
   display: inline-flex;
-  width: 206px;
+
   margin-right: 32px;
   margin-left: 32px;
   margin-top: 16px;

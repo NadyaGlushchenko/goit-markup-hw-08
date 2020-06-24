@@ -5,6 +5,12 @@
 // .border {
 //   border-top: 1px solid #ececec;
 // }
+.exampwork {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
 .item-size {
   width: calc((100% - 30px * 2) / 3);
 }
