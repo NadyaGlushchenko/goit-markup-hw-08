@@ -7,6 +7,13 @@
     display: flex;
     flex-wrap: wrap;
   }
+  & .item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  & .item:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 .section {
@@ -14,9 +21,8 @@
 }
 
 .size-item {
-  // width: calc((100% - 30px * 3) / 4);
+  width: calc(100%);
 
-  // }
   @media screen and (min-width: 738px) {
     width: calc((100% - 30px * 1) / 2);
   }
@@ -26,9 +32,6 @@
 //   }
 // }
 
-.item {
-  position: relative;
-}
 .backgr {
   display: flex;
   justify-content: center;

@@ -4,27 +4,32 @@
 
 .hero {
   position: relative;
-  text-align: center;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
     ),
     url(../images/Header.jpg);
-  max-width: 1200px;
-  height: 600px;
+  min-width: 350px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
   margin-left: auto;
   margin-right: auto;
   &-title {
     color: $text-color;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
     text-align: center;
-    text-transform: uppercase;
-    padding-top: 200px;
-    padding-bottom: 0px;
     margin: 0px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      line-height: 1.36;
+    }
   }
 }
 .link-hero {
@@ -41,7 +46,7 @@
   height: 50px;
   border-radius: 4px;
   padding: 10px 32px;
-  margin-top: 46px;
+  margin-top: 30px;
   border: 0px;
   &:hover,
   &:focus {
@@ -51,6 +56,10 @@
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
   }
+}
+.centr {
+  padding-top: 118px;
+  text-align: center;
 }
 
 // // ПЛАНШЕТ

@@ -23,6 +23,26 @@
           <a href="./index.html" class="logo link">
             <span class="logo-one">Web</span>Studio</a
           >
+          <!-- меню нав -->
+          <button
+            type="button"
+            class="menu-button is-open"
+            aria-expanded="false"
+            data-menu-button
+          >
+            <svg
+              width="24"
+              height="16"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use class="icon-X" href="./images/symbol-defs.svg#icon-X"></use>
+              <use
+                class="icon-menu"
+                href="./images/symbol-defs24.svg#icon-menu_24px"
+              ></use>
+            </svg>
+          </button>
+          <!-- <div class="menu-conteiner">
           <ul class="nav-list">
             <li class="item">
               <a href="./index.html" class="nav-link active">Студия</a>
@@ -55,19 +75,21 @@
             >
           </li>
         </ul>
+        </div> -->
       </div>
     </header>
     <main class="uniq-content">
       <!-- Герой (главный заголовок)-->
       <section class="hero">
-        <h1 class="hero-title">
-          эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-
-        <button data-modal-open type="submit" class="link-hero">
-          Заказать услугу
-        </button>
+        <div class="centr">
+          <h1 class="hero-title">
+            эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button data-modal-open type="submit" class="link-hero">
+            Заказать услугу
+          </button>
+        </div>
       </section>
       <!-- Наши приоритеты -->
       <section class="section">
@@ -464,7 +486,7 @@
             placeholder=" "
           />
 
-          <label for="name" class="label-order">Имя</label>
+          <label for="text" class="label-order">Имя</label>
           <svg class="icon-form">
             <use href="./images/symbol-defs.svg#icon-Vector"></use>
           </svg>
@@ -478,7 +500,7 @@
             placeholder=" "
           />
 
-          <label for="tel" class="label-order">Телефон</label>
+          <label for="telephone" class="label-order">Телефон</label>
           <svg class="icon-form">
             <use href="./images/symbol-defs.svg#icon-tel"></use>
           </svg>
@@ -491,7 +513,7 @@
             class="input-order"
             placeholder=" "
           />
-          <label for="email" class="label-order">Почта</label>
+          <label for="mail" class="label-order">Почта</label>
           <svg class="icon-form">
             <use href="./images/symbol-defs.svg#icon-meil"></use>
           </svg>
@@ -517,6 +539,7 @@
         <button type="submit" class="form-button">Отправить</button>
       </form>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
