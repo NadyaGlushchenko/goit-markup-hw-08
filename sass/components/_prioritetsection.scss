@@ -1,18 +1,16 @@
 // стили секции наши приоритеты
 
-// СМАРТФОН
-
 .prioritiets {
   @media screen and (min-width: 738px) {
     display: flex;
     flex-wrap: wrap;
+    @media screen and (min-width: 1170px) {
+      flex-wrap: nowrap;
+    }
   }
   & .item {
     position: relative;
     margin-bottom: 30px;
-  }
-  & .item:last-child {
-    margin-bottom: 0px;
   }
 }
 
@@ -25,12 +23,17 @@
 
   @media screen and (min-width: 738px) {
     width: calc((100% - 30px * 1) / 2);
+    &:nth-child(odd) {
+      margin-right: 30px;
+    }
+  }
+  @media screen and (min-width: 1170px) {
+    width: calc((100% - 30px * 3) / 4);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 }
-//   @media screen and (min-width: 1200px) {
-//     flex-basis: 25%;
-//   }
-// }
 
 .backgr {
   display: flex;
@@ -57,91 +60,3 @@
   margin-top: 10px;
   margin-bottom: 0px;
 }
-
-// // ПЛАНШЕТ
-
-// .prioritets-list {
-//   margin-bottom: 94px;
-// }
-
-// .icon {
-//   margin-top: 94px;
-// }
-
-// .item {
-//   position: relative;
-// }
-// .backgr {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: $background-icon;
-//   border-radius: 4px;
-//   height: 120px;
-// }
-// .size {
-//   width: 70px;
-//   height: 70px;
-// }
-// .title-three {
-//   font-size: 14px;
-//   line-height: 1.14;
-//   text-transform: uppercase;
-//   margin-top: 30px;
-//   margin-bottom: 0px;
-// }
-// .paragraf {
-//   font-size: 14px;
-//   line-height: 1.71;
-//   margin-top: 10px;
-//   margin-bottom: 0px;
-// }
-
-// // ДЕСКТОП
-
-// .prioritiets {
-//   display: flex;
-//   & .item + .item {
-//     margin-left: 30px;
-//   }
-// }
-// .prioritets-list {
-//   margin-bottom: 94px;
-// }
-
-// .icon {
-//   margin-top: 94px;
-// }
-
-// .size-item {
-//   width: calc((100% - 30px * 3) / 4);
-// }
-
-// .item {
-//   position: relative;
-// }
-// .backgr {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: $background-icon;
-//   border-radius: 4px;
-//   height: 120px;
-// }
-// .size {
-//   width: 70px;
-//   height: 70px;
-// }
-// .title-three {
-//   font-size: 14px;
-//   line-height: 1.14;
-//   text-transform: uppercase;
-//   margin-top: 30px;
-//   margin-bottom: 0px;
-// }
-// .paragraf {
-//   font-size: 14px;
-//   line-height: 1.71;
-//   margin-top: 10px;
-//   margin-bottom: 0px;
-// }
