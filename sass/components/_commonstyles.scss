@@ -93,6 +93,7 @@ img {
 }
 
 .menu-conteiner {
+  display: none;
   display: inline-flex;
   text-align: center;
   font-size: 14px;
@@ -147,7 +148,7 @@ img {
 }
 
 .nav-contacts {
-  display: flex;
+  // display: flex;
 
   margin-left: auto;
 
@@ -162,45 +163,45 @@ img {
   }
 }
 
-// .contacts .link {
-//   color: $text-grey;
-//   text-decoration: none;
-//   font-size: 14px;
-//   line-height: 1.14;
-//   font-weight: 500;
-//   display: block;
-//   padding-top: 32px;
-//   padding-bottom: 32px;
-//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-//   &:hover,
-//   &:focus {
-//     color: $background-color;
-//   }
-// }
+.contacts .link {
+  color: $text-grey;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $background-color;
+  }
+}
 
-// .envelope {
-//   width: 16px;
-//   height: 11.2px;
-//   .nav-icon:hover .link &,
-//   .nav-icon:focus .link & {
-//     fill: $background-color;
-//   }
-// }
+.envelope {
+  width: 16px;
+  height: 11.2px;
+  .nav-icon:hover .link &,
+  .nav-icon:focus .link & {
+    fill: $background-color;
+  }
+}
 
-// .smartphone {
-//   width: 10px;
-//   height: 15px;
-//   .nav-icon:hover .link &,
-//   .nav-icon:focus .link & {
-//     fill: $background-color;
-//   }
-// }
+.smartphone {
+  width: 10px;
+  height: 15px;
+  .nav-icon:hover .link &,
+  .nav-icon:focus .link & {
+    fill: $background-color;
+  }
+}
 
-// .decor {
-//   margin-right: 10px;
-//   fill: $text-grey;
-//   vertical-align: middle;
-// }
+.decor {
+  margin-right: 10px;
+  fill: $text-grey;
+  vertical-align: middle;
+}
 
 // ФУТЕР
 
